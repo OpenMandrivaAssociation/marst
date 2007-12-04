@@ -1,6 +1,6 @@
 %define name		marst
 %define version		2.4
-%define release		2mdk
+%define release		 %mkrel 2
 
 Name:		%{name}
 Summary:	Algol-to-C translator
