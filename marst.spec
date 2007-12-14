@@ -25,7 +25,7 @@ in the algorithmic language Algol 60 to the C programming language.
 %build
 export FORCE_AUTOCONF_2_5=1
 aclocal-1.8
-autoconf-2.5x
+autoconf
 automake-1.8 --foreign -a
 %configure --disable-dependency-tracking
 %make
