@@ -10,6 +10,7 @@ Source0:	%{name}-%{version}.tar.bz2
 Patch0:		%{name}-%{version}-automake-texinfo.patch.bz2
 URL:		http://www.gnu.org/software/marst/marst.html
 Group:		Development/Other
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License:	GPL
 BuildRequires:	texinfo autoconf2.5 automake1.8
 
