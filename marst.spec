@@ -53,3 +53,35 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/marst
 %{_infodir}/%{name}.info*
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 2.4-6mdv2011.0
++ Revision: 620295
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 2.4-5mdv2010.0
++ Revision: 429954
+- rebuild
+
+* Mon Jul 28 2008 Thierry Vignaud <tv@mandriva.org> 2.4-4mdv2009.0
++ Revision: 251884
+- rebuild
+- fix no-buildroot-tag
+
+* Mon Dec 17 2007 Thierry Vignaud <tv@mandriva.org> 2.4-2mdv2008.1
++ Revision: 129735
+- kill re-definition of %%buildroot on Pixel's request
+- fix autoconf-2.5x path
+- use %%mkrel
+- import marst
+
+
+* Fri Nov 05 2004 Christiaan Welvaart <cjw@daneel.dyndns.org> 2.4-2mdk
+- fix build with current autotools
+
+* Mon Jan 26 2004 Lenny Cartier <lenny@mandrakesoft.com> 2.4-1mdk
+- from Omer Shenker <marst@omershenker.net> : 
+	- Patch to handle texinfo properly with automake
+	- Specfile for Mandrake
+	- gz to bz2 compression
