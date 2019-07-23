@@ -5,7 +5,7 @@
 Name:		%{name}
 Summary:	Algol-to-C translator
 Version:	%{version}
-Release:	%{release}
+Release:	1
 Source0:	%{name}-%{version}.tar.bz2
 Patch0:		%{name}-%{version}-automake-texinfo.patch.bz2
 URL:		http://www.gnu.org/software/marst/marst.html
