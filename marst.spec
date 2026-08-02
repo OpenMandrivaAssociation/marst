@@ -1,5 +1,5 @@
 %define name		marst
-%define version		2.4
+%define version		2.8
 %define release 		 8
 
 Name:		%{name}
@@ -22,7 +22,7 @@ in the algorithmic language Algol 60 to the C programming language.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 export FORCE_AUTOCONF_2_5=1
